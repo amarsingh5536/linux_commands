@@ -1,4 +1,7 @@
-*Basic Linux Commands*
+
+# BASIC LINUX COMMANDS
+```THERE IS LISTING OF BASIC LINUX COMMAND WILL HELP YOU IN YOUR DAILY WORKS```
+
 
 ##File & Navigating:
  * ls – directory listing
