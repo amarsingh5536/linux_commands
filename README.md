@@ -1,6 +1,6 @@
 *Basic Linux Commands*
 
-##File Commands:
+##File & Navigating:
  * ls – directory listing
  * ls -al – formatted listing with hidden files
  * cd dir - change directory to dir
@@ -31,27 +31,26 @@
  * fg – brings the most recent job to foreground
  * fg n – brings job n to the foreground
 
-##File Permissions:
+##Permissions:
  * chmod octal file – change the permissions of file to octal, which can be found separately for user, group, and world by adding:
  * 4 – read (r)
  * 2 – write (w)
  * 1 – execute (x)
-
-###Examples:
+ * 
  * chmod 777 – read, write, execute for all
  * chmod 755 – rwx for owner, rx for group and world
 
-##SSH: 
+##Networking: 
  * ssh user@host – connect to host as user
  * ssh -p port user@host – connect to host on port port as user
  * ssh-copy-id user@host – add your key to host for user to enable a keyed or passwordless login
+ * ping host – ping host and output results
+ * whois domain – get whois information for domain
+ * dig domain – get DNS information for domain
+ * dig -x host – reverse lookup host
+ * wget file – download file
+ * wget -c file – continue a stopped download
 
-##Searching:
- * grep pattern files – search for pattern in files
- * grep -r pattern dir – search recursively for pattern in dir
- * command | grep pattern – search for pattern in the output of command
- * locate file – find all instances of file
- 
 ##System Info:
  * date – show the current date and time
  * cal – show this month's calendar
@@ -79,22 +78,11 @@
  * gzip file – compresses file and renames it to file.gz
  * gzip -d file.gz – decompresses file.gz back to file
 
-##Network:
- * ping host – ping host and output results
- * whois domain – get whois information for domain
- * dig domain – get DNS information for domain
- * dig -x host – reverse lookup host
- * wget file – download file
- * wget -c file – continue a stopped download
 
 ##Installation:
  * dpkg -i pkg.deb – install a package (Debian)
  * rpm -Uvh pkg.rpm – install a package (RPM)
 
-##Install from source:
- * ./configure
- * make
- * make install
 
 ##Shortcuts:
  * Ctrl+C – halts the current command
