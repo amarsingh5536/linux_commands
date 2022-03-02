@@ -111,3 +111,7 @@ Shortcut keys Options For Screen:
 * Ctrl-a + d – It detach a screen session without stopping it.	 
 
 
+# Others Important:
+sudo lsof -t -i tcp:8000 | xargs kill -9  –kill running  port/ server *8000 is a port
+
+
