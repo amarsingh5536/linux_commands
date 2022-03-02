@@ -25,6 +25,7 @@
  * tail -f file – output the contents of file as it grows, starting with the last 10 lines 
 
 # Process Management:
+ * sudo ps aux –show you all processes
  * ps – display your currently active processes
  * top – display all running processes
  * kill pid – kill process id pid
