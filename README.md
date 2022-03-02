@@ -48,6 +48,9 @@
  * ssh -p port user@host – connect to host on port port as user i.e(ssh amar@163.47.212.61 -p 2020)
  * ssh-copy-id user@host – add your key to host for user to enable a keyed or passwordless login
  * ping host – ping host and output results
+ * hostname -f – To get Hostname of your system
+ * ifconfig – To get configure network interfaces
+ * ip route – To Check the ip address of the default gateway(if at all specified)
  * whois domain – get whois information for domain
  * dig domain – get DNS information for domain
  * dig -x host – reverse lookup host
