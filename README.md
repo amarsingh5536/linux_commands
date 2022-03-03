@@ -97,7 +97,9 @@
  * Ctrl+W – erases one word in the current line
 
 # Screen:
-```With the Linux screen command, you can push running terminal applications to the background and pull them forward when you want to see them. It also supports split-screen displays and works over SSH connections, even after you disconnect and reconnect!```
+~~~~
+With the Linux screen command, you can push running terminal applications to the background and pull them forward when you want to see them. It also supports split-screen displays and works over SSH connections, even after you disconnect and reconnect!
+~~~~
 
 Installation:
 sudo apt install screen
