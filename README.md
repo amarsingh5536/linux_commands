@@ -99,7 +99,7 @@
 # Screen:
 ```With the Linux screen command, you can push running terminal applications to the background and pull them forward when you want to see them. It also supports split-screen displays and works over SSH connections, even after you disconnect and reconnect!```
 
-Installion:
+Installation:
 sudo apt install screen
 
 Description	Command
