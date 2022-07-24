@@ -118,6 +118,6 @@ Shortcut keys Options For Screen:
 
 
 # Others Important:
-sudo lsof -t -i tcp:8000 | xargs kill -9  #kill running  port/ server *8000 is a port
+``` sudo lsof -t -i tcp:8000 | xargs kill -9 ```  #kill running  port/ server *8000 is a port
 
 
